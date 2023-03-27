@@ -1,5 +1,5 @@
 def ruleaza_dfa(dfa, input_string):
-    stare_curenta = dfa['start']
+    stare_curenta = dfa['stare_initiala']
     for simbol in input_string:
         if simbol not in dfa['alfabet']:
             return False
